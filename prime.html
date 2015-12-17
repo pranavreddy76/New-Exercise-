@@ -5,16 +5,19 @@
 </head>
 <body>
 <script>
-var i = 5;
-{
-	if(i %== 0)
-	console.log("not a prime")
+var numberInput = 33343;
+var isPrime = true;
+for (var i = 2; i <numberInput; i++) {
+	if (numberInput%i==0) {
+		console.log("Not Prime!!");
+		isPrime = false;
+		break;
 	}
-	{
-	else
-	console.log("prime number")
-	}
-}
+};
+if (isPrime) {
+console.log("Prime!!");
+};
+
 </script>
 </body>
 </html>
