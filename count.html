@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+
+var countBs = function(name) 
+{
+	var count = 0;
+	for (var i = 0; i< name.length ;  i++) {
+		
+		if (name[i] == "B") {
+count ++;
+		}
+
+	};
+	return count;
+
+}
+console.log(countBs("Bangalore"));
+console.log(countBs("BomBay"));
+
+var countChar = function(name, charectar) {
+	var count = 0;
+	for (var i =0; i < name.length;i++) {
+		if (name[i] == charectar) {
+			count ++;
+		}
+		
+	}
+	return count;
+
+	};
+	console.log(countChar("Bombay", "o"));
+	</script>
+	</body>
+</html>
